@@ -11,7 +11,7 @@ public class deleteElement {
             array[i] = array[i + 1];
         } array[array.length - 1] = 0;
         for (int i = 0; i < array.length; i++) {
-            System.out.printf( array[i]+ ", ");
+            System.out.print( array[i]+ ", ");
         }
     }
     public static int del(int[]arr,int number){
